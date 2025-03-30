@@ -4,11 +4,17 @@
     background: #31025b;
     display: grid;
     place-items: center;
+    position: relative;
     .form_section{
         background: #fff;
         width:30%;
         padding:20px;
         border-radius: 10px;
+        h2{
+            color:#31025b;
+            border-bottom: 1px solid #31025b;
+            padding-bottom: 10px;
+        }
         form{
             margin-top: 20px;
             .field{
@@ -36,6 +42,14 @@
                 border-radius: 10px;
                 border:none;
                 cursor: pointer;
+            }
+            .message{
+                background: #fff;
+                padding:10px 20px;
+                position: absolute;
+                top:20px;
+                right:20px;
+                border-radius: 10px;
             }
         }
     }
